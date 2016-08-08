@@ -1,0 +1,12 @@
+.gollum, .smeagol {
+  height: 350px;
+  border-radius: 25px;
+}
+
+p {
+  text-align: center;
+  font-size: 8em;
+  font-family: fantasy;
+  padding-top: 100px;
+
+}

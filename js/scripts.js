@@ -30,3 +30,11 @@ var sentenceReverse = function(sentence){
 }
 
 console.log(sentenceReverse(addMiddle(sentence)));
+
+$(".gollum").click(function(){
+  $(".sentence").text(sentence);
+});
+
+$(".smeagol").click(function(){
+  $(".sentence").text(sentenceReverse(addMiddle(sentence)));
+});
