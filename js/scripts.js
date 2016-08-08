@@ -6,3 +6,7 @@ return sentence.charAt(0).toUpperCase() + sentence.charAt(sentence.length -1).to
 };
 
 alert(firstLast(sentence));
+
+var reverse = function(letters){
+return letters.charAt(1) + letters.charAt(0);
+}
